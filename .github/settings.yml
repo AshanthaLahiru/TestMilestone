@@ -76,12 +76,23 @@
 #   - name: docs
 #     permission: push
 
-milestones:
-  - title: Hello issue (Milestone)
-    description: mileston test description
-    due_on: 2018-04-25T10:00:00Z
-    state: open
-  - title: New issue (Milestone)
-    description: mileston test description
-    due_on: 2018-04-25T10:00:00Z
-    state: open
+# milestones:
+#   - title: Hello issue (Milestone)
+#     description: mileston test description
+#     due_on: 2018-04-25T10:00:00Z
+#     state: open
+#   - title: New issue (Milestone)
+#     description: mileston test description
+#     due_on: 2018-04-25T10:00:00Z
+#     state: open
+
+labels:
+  - name: bug
+    color: CC0000
+  - name: feature
+    color: 336699
+  - name: first-timers-only
+    # include the old name to rename an existing label
+    oldname: Help Wanted
+  - name: new-modification
+    color: 336699
