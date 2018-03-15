@@ -3,7 +3,7 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: ProbotTestRep
+  name: ProbotTestRepo
 
   # A short description of the repository that will show up on GitHub
   description: description of repo is test
@@ -48,12 +48,12 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
   - name: bug
-    color: CC0000
+    color: FFFF33
   - name: feature
     color: 336699
-  - name: first-timers-only
-    # include the old name to rename an existing label
-    oldname: Help Wanted
+  # - name: first-timers-only
+  #   # include the old name to rename an existing label
+  #   oldname: Help Wanted
 
 # Collaborators: give specific users access to this repository.
 # collaborators:
@@ -76,15 +76,15 @@ teams:
   - name: doc
     permission: push
 
-# milestones:
-#   - title: Hello issue (Milestone)
-#     description: mileston test description
-#     due_on: 2018-04-25T10:00:00Z
-#     state: open
-#   - title: New issue (Milestone)
-#     description: mileston test description
-#     due_on: 2018-04-25T10:00:00Z
-#     state: open
+milestones:
+  - title: Hello issue (Milestone)
+    description: mileston test description
+    due_on: 2018-04-25T10:00:00Z
+    state: open
+  - title: New issue (Milestone)
+    description: mileston test description
+    due_on: 2018-04-25T10:00:00Z
+    state: open
 
 # labels:
 #   - name: bug
