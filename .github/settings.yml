@@ -92,6 +92,6 @@ labels:
   - name: feature
     color: 336699
   - name: new-modification
-    color: 336699
+    color: '006611'
   - name: Testlabel
-    color: 006699
+    color: '006677'
