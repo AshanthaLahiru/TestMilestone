@@ -94,4 +94,4 @@ labels:
   - name: new-modification
     color: '006611'
   - name: Testlabel
-    color: '006677'
+    color: 006677
