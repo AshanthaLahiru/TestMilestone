@@ -90,8 +90,8 @@ labels:
   - name: bug
     color: CC0000
   - name: feature
-    color: 000066
+    color: 005066
   - name: new-modification
     color: 050011
   - name: Testlabel
-    color: 05678
+    color: 05671
