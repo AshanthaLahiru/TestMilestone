@@ -86,10 +86,12 @@ milestones:
     due_on: 2018-04-25T10:00:00Z
     state: open
 
-# labels:
-#   - name: bug
-#     color: CC0000
-#   - name: feature
-#     color: 336699
-#   - name: new-modification
-#     color: 336699
+labels:
+  - name: bug
+    color: CC0000
+  - name: feature
+    color: 336699
+  - name: new-modification
+    color: 336699
+  - name: Testlabel
+    color: 336699
